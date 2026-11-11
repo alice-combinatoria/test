@@ -1,1 +1,13 @@
 language: "ja-JP"
+language: "ja-JP"
+language: "en-US" # 設定の重複・矛盾
+  indent: 4       # インデントの乱れ
+reviews:
+  profile: "chill"
+  # コメントだけ残して中身がない
+  high_level_summary: true
+  auto_review:
+    enabled: true
+    branches: ["*"]
+# 閉じタグや不要なインデントの崩れ
+      - stray_item: "broken"
